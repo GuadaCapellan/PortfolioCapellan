@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../Styles/Contacto.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Raleway:wght@800&display=swap">
+    <script src="../Scripts/contacto.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../Pages/TrabajoReciente.html">Trabajos Recientes</a></li>
+            <li><a href="../Pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Contactame</h1>
+        <p>Si deseas colaborar o discutir proyectos, no dudes en ponerte en contacto.</p>
+    </header>
+    <main>
+        <form id="contactForm">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Por favor ingrese el e-mail" required>
+            
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ingrese el teléfono celular" required>
+            
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Deje su mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <section id="contact-info">
+            <h2>Podes contactarme a través de:</h2>
+            <p><a href="mailto:mailFALSO@gmail.com?subject=Contacto%20desde%20tu%20sitio%20web">Enviar correo</a></p>
+            <button onclick="window.location.href='https://www.linkedin.com/in/usuariofalso'">Visitar LinkedIn</button>
+        </section>
+    </main>
+    <footer>
+        <p>Hecho con <span>&#10084;</span></p>
+    </footer>
+</body>
+</html>
+
