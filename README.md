@@ -24,4 +24,4 @@ El diseño del portafolio fue creado utilizando Figma. Link a continuación:
 ## Enlace a la Página Desplegada
 
 El portafolio está desplegado y accesible en el siguiente enlace:
-[ Portafolio](https://www.misitio.com)
+[ Portafolio](https://guadacapellan.github.io/PortfolioCapellan/)
